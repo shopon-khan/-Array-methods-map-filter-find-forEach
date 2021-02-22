@@ -27,3 +27,21 @@ console.log(prices2);
 // products.forEach(product => console.log(product.name));
 
 // filter holo kesu jenish nebo ar kecho jenish nebo na
+
+// filter
+const cheaper = products.filter(pd => pd.price < 100);
+// console.log(cheaper);
+// remove an item using filter
+const remaining = products.filter(pd => pd.id  != 4);
+// console.log(remaining);
+// find anything using filter
+const hasTablet = products.find(pd => pd.name === 'tablet');
+console.log(hasTablet);
+
+// reduce
+// includes
+// push
+// pop
+// length
+// indexOf
+// aigolo mustne can known jantai hobeai
